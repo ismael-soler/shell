@@ -1,2 +1,2 @@
 #!/bin/bash
-cp -rut *.html /shell/basics /..
+cp -run *.html /shell/basics /..
