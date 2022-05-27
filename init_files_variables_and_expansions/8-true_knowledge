@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(($TRUEKWOWLEDGE+128)) \n
+echo $(($TRUEKWOWLEDGE+128)) | fmt
