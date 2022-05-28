@@ -1,2 +1,2 @@
 #!/bin/bash
-n="$(echo $WATER+$STIR | tr 'water' '01234' | tr 'stir.' '01234')" | echo $(($n)) | tr '01234567' 'bestchol' | fmt 
+n="$(echo 5#$WATER + 5#$STIR | tr 'water' '01234' | tr 'stir.' '01234')" | echo $(($n)) | tr '01234567' 'bestchol' | fmt 
