@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $WATER+$STIR | tr 'water' '01234' | tr 'stir.' '01234' | bc | tr '01234567' 'bestchol'echo $WATER+$STIR | tr 'water' '01234' | tr 'stir.' '01234' | bc | tr '01234567' 'bestcho'
+echo $((bestchol#$((WATER+STIR)))) 
