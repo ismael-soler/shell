@@ -2,7 +2,7 @@
 # Write a Bash script that displays some stuff
 i="$( find . -name "[!.]*" | wc -l )"
 for _ in $i 
-do 
-	find . -name "[!.]*" | rev | cut -d "-" -f 1 | rev
+do
+	find . -name "[!.]*" | cut -d "/" -f 2 | cut -d "-" -f 2	
 done
 
