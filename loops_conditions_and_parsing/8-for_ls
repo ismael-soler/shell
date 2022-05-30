@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # Write a Bash script that displays some stuff
-i="$( ls | wc -l )"
+i="$( find "$PWD" -mindepth 1 -name ".*" -prune -o -print | wc -l )"
 for _ in $i 
 do 
-	ls | tr "	" "\n" | rev | cut -d "-" -f 1 | rev
+	find "$PWD" -mindepth 1 -name ".*" -prune -o -print | rev | cut -d "-" -f 1 | rev
 done
 
