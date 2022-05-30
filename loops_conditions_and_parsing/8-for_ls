@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Write a Bash script that displays some stuff
+i="$( ls -t | wc -l )"
+for _ in $i 
+do 
+	ls | tr "	" "\n" | rev | cut -d "-" -f 1 | rev
+done
+
