@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+ps | cut -d " " -f 1 | head -n 2
