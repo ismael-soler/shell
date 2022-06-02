@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+#Write a manage_my_process Bash script that: do some stuff 
+if [ -n "$1" ]
+then 
+	if [ "$1" == "start" ]  
+	then
+		echo 'bien ahi' 
+	else
+		echo 'mal ahi'
+	fi
+else 
+	echo 'te pido broq ue porfa or pongas alguito '
+fi
